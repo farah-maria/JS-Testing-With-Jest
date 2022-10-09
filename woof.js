@@ -1,6 +1,6 @@
 function woof(str) {
     if (typeof str !== "string") {
-        return;
+        return null;
     }
     console.log("the woof ran: ", str);
     return str.length + "woof!";
